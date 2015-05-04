@@ -64,5 +64,19 @@ module LocomotiveEngine
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    config.action_mailer.delivery_method = :smtp
+    config.action_mailer.default_url_options = { :host => ENV['APPLICATION_ROOT_URL'] }
+    config.action_mailer.perform_deliveries = true
+
+    config.action_mailer.smtp_settings = {
+      address: "smtp.mandrillapp.com",
+      port: 587,
+      domain: ENV['APPLICATION_ROOT_URL'],
+      authentication: "plain",
+      enable_starttls_auto: true,
+      user_name: ENV['EMAIL_USERNAME'],
+      password: ENV['EMAIL_PASSWORD']
+    }
   end
 end

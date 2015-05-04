@@ -23,6 +23,12 @@ Locomotive.configure do |config|
   #   per_page:           10
   # }
 
+  config.hosting = {
+    :target     => :heroku,
+    :api_key    => ENV['HEROKU_API_KEY'],
+    :app_name   => ENV['HEROKU_APP_NAME']
+  }
+
   # default locale (for now, only en, de, fr, pl, pt-BR, it, nb, ja, zh-CN, cs, bg and sk are supported)
   config.default_locale = :en
 

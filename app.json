@@ -7,5 +7,7 @@
   "addons": [
     "mongohq"
   ],
-  "env": {}
+  "env": {
+    "BUNDLE_WITHOUT": "development:test"
+  }
 }
