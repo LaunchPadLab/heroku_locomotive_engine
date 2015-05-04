@@ -1,0 +1,11 @@
+{
+  "name": "Locomotive Engine Sample",
+  "description": "A fresh install of the Locomotive Rails CMS Engine",
+  "repository": "https://github.com/launchpadlab/locomotive_engine",
+  "logo": "http://locomotivecms.com/sites/518d01737d0cca6914003b78/theme/images/logo-locomotive.png",
+  "keywords": ["locomotivecms", "rails", "mongodb"],
+  "addons": [
+    "mongohq"
+  ],
+  "env": {}
+}
