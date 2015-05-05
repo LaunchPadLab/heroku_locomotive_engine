@@ -1,8 +1,7 @@
 #LocomotiveCMS
 
-##Deployment
+##Deploy
 
-There are 2 configurations we will use for Locomotive:
+This configuration of LocomotiveCMS is for a multi-site CMS.
 
-- [Single site](https://github.com/LaunchPadLab/heroku_locomotive_engine/tree/single_site)
-- [Multi-site](https://github.com/LaunchPadLab/heroku_locomotive_engine/tree/multi_site)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
